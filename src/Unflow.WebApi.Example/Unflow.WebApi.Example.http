@@ -1,0 +1,6 @@
+@Unflow.WebApi.Example_HostAddress = http://localhost:5298
+
+GET {{Unflow.WebApi.Example_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

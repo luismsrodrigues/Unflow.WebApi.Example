@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6845208D-4DA4-4755-8390-F25957258342}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unflow.WebApi.Example", "src\Unflow.WebApi.Example\Unflow.WebApi.Example.csproj", "{5633EE85-34D5-4887-81BB-16CC95D7DF22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unflow.WebApi.Example.Controllers", "src\Unflow.WebApi.Example.Controllers\Unflow.WebApi.Example.Controllers.csproj", "{7498771A-46B9-4E24-8A2F-3509AE61E515}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unflow.WebApi.Example.Business", "src\Unflow.WebApi.Example.Business\Unflow.WebApi.Example.Business.csproj", "{B123DA43-657B-45AC-9489-557ED9F31B5D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{BF74058F-5061-49B3-95F2-12E935BB39E3}"
+	ProjectSection(SolutionItems) = preProject
+		common.props = common.props
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{C3C2D3CC-C450-430A-8206-65CE0AC809C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unflow.WebApi.Example.Database", "src\Unflow.WebApi.Example.Database\Unflow.WebApi.Example.Database.csproj", "{DDED270F-9B8F-4569-86C0-37F2C1F14D53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unflow.WebApi.Example.Database.Migrator", "src\Unflow.WebApi.Example.Database.Migrator\Unflow.WebApi.Example.Database.Migrator.csproj", "{124C811F-7B15-41F8-8272-4D85CA91B5E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5633EE85-34D5-4887-81BB-16CC95D7DF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5633EE85-34D5-4887-81BB-16CC95D7DF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5633EE85-34D5-4887-81BB-16CC95D7DF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5633EE85-34D5-4887-81BB-16CC95D7DF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7498771A-46B9-4E24-8A2F-3509AE61E515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7498771A-46B9-4E24-8A2F-3509AE61E515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7498771A-46B9-4E24-8A2F-3509AE61E515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7498771A-46B9-4E24-8A2F-3509AE61E515}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B123DA43-657B-45AC-9489-557ED9F31B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B123DA43-657B-45AC-9489-557ED9F31B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B123DA43-657B-45AC-9489-557ED9F31B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B123DA43-657B-45AC-9489-557ED9F31B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDED270F-9B8F-4569-86C0-37F2C1F14D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDED270F-9B8F-4569-86C0-37F2C1F14D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDED270F-9B8F-4569-86C0-37F2C1F14D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDED270F-9B8F-4569-86C0-37F2C1F14D53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124C811F-7B15-41F8-8272-4D85CA91B5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124C811F-7B15-41F8-8272-4D85CA91B5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124C811F-7B15-41F8-8272-4D85CA91B5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124C811F-7B15-41F8-8272-4D85CA91B5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5633EE85-34D5-4887-81BB-16CC95D7DF22} = {6845208D-4DA4-4755-8390-F25957258342}
+		{7498771A-46B9-4E24-8A2F-3509AE61E515} = {6845208D-4DA4-4755-8390-F25957258342}
+		{B123DA43-657B-45AC-9489-557ED9F31B5D} = {6845208D-4DA4-4755-8390-F25957258342}
+		{C3C2D3CC-C450-430A-8206-65CE0AC809C2} = {6845208D-4DA4-4755-8390-F25957258342}
+		{DDED270F-9B8F-4569-86C0-37F2C1F14D53} = {C3C2D3CC-C450-430A-8206-65CE0AC809C2}
+		{124C811F-7B15-41F8-8272-4D85CA91B5E9} = {C3C2D3CC-C450-430A-8206-65CE0AC809C2}
+	EndGlobalSection
+EndGlobal

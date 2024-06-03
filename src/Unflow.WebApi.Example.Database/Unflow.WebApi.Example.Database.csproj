@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <ItemGroup>
+        <Using Include="Microsoft.EntityFrameworkCore" />
+        <Using Include="SimpleSoft.Database" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="8.0.3" />
+        <PackageReference Include="SimpleSoft.Database.EFCore" Version="1.2.2" />
+    </ItemGroup>
+
+</Project>

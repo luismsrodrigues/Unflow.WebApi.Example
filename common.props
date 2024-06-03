@@ -1,0 +1,31 @@
+<Project>
+
+    <PropertyGroup>
+        <Product>Unflow.Dotnet.WebApi</Product>
+        <Company>Unflow</Company>
+        <Copyright>Copyright © Unflow</Copyright>
+        <Authors>Unflow</Authors>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <GenerateAssemblyTitleAttribute>true</GenerateAssemblyTitleAttribute>
+        <GenerateAssemblyDescriptionAttribute>true</GenerateAssemblyDescriptionAttribute>
+        <LangVersion>latest</LangVersion>
+        <TargetFrameworks>net8.0</TargetFrameworks>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <AnalysisMode>AllEnabledByDefault</AnalysisMode>
+        <EnableNETAnalyzers>true</EnableNETAnalyzers>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <IsPackable>false</IsPackable>
+        <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0.20000</FileVersion>
+        <VersionPrefix>1.0.0-dev001</VersionPrefix>
+    </PropertyGroup>
+
+</Project>
